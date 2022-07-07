@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.openweathermap.forecast"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Android Base Project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Android Base Project\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Android Base Project\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Android Base Project\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Android Base Project\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Android Base Project\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Android Base Project\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Android Base Project\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <permission
+15-->[androidx.core:core:1.9.0-alpha05] C:\Users\mohsin.a\.gradle\caches\transforms-3\727cb4740b5103447f2e2ec8b3eb5e5b\transformed\core-1.9.0-alpha05\AndroidManifest.xml:23:5-25:47
+16        android:name="com.openweathermap.forecast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0-alpha05] C:\Users\mohsin.a\.gradle\caches\transforms-3\727cb4740b5103447f2e2ec8b3eb5e5b\transformed\core-1.9.0-alpha05\AndroidManifest.xml:24:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0-alpha05] C:\Users\mohsin.a\.gradle\caches\transforms-3\727cb4740b5103447f2e2ec8b3eb5e5b\transformed\core-1.9.0-alpha05\AndroidManifest.xml:25:9-44
+18
+19    <uses-permission android:name="com.openweathermap.forecast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0-alpha05] C:\Users\mohsin.a\.gradle\caches\transforms-3\727cb4740b5103447f2e2ec8b3eb5e5b\transformed\core-1.9.0-alpha05\AndroidManifest.xml:27:5-97
+19-->[androidx.core:core:1.9.0-alpha05] C:\Users\mohsin.a\.gradle\caches\transforms-3\727cb4740b5103447f2e2ec8b3eb5e5b\transformed\core-1.9.0-alpha05\AndroidManifest.xml:27:22-94
+20    <uses-permission android:name="android.permission.REORDER_TASKS" />
+20-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
+20-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:22-69
+21
+22    <application
+22-->C:\Android Base Project\app\src\main\AndroidManifest.xml:9:5-28:19
+23        android:name="com.openweathermap.forecast.MyApplication"
+23-->C:\Android Base Project\app\src\main\AndroidManifest.xml:10:9-38
+24        android:allowBackup="true"
+24-->C:\Android Base Project\app\src\main\AndroidManifest.xml:11:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0-alpha05] C:\Users\mohsin.a\.gradle\caches\transforms-3\727cb4740b5103447f2e2ec8b3eb5e5b\transformed\core-1.9.0-alpha05\AndroidManifest.xml:29:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Android Base Project\app\src\main\AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->C:\Android Base Project\app\src\main\AndroidManifest.xml:13:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Android Base Project\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="true"
+31-->C:\Android Base Project\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme" >
+33-->C:\Android Base Project\app\src\main\AndroidManifest.xml:16:9-37
+34        <activity
+34-->C:\Android Base Project\app\src\main\AndroidManifest.xml:18:9-26:20
+35            android:name="com.openweathermap.forecast.ui.MainActivity"
+35-->C:\Android Base Project\app\src\main\AndroidManifest.xml:19:13-44
+36            android:exported="true" >
+36-->C:\Android Base Project\app\src\main\AndroidManifest.xml:20:13-36
+37            <intent-filter>
+37-->C:\Android Base Project\app\src\main\AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:17-69
+38-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Android Base Project\app\src\main\AndroidManifest.xml:24:17-77
+40-->C:\Android Base Project\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\d243261f4de6e6fd10017ade414e36cd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+44            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+44-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\d243261f4de6e6fd10017ade414e36cd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+45            android:exported="false"
+45-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\d243261f4de6e6fd10017ade414e36cd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\d243261f4de6e6fd10017ade414e36cd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+47
+48        <meta-data
+48-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\b9e0cbff83bdc327ba22bd0b13c5db2b\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+49            android:name="com.google.android.gms.version"
+49-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\b9e0cbff83bdc327ba22bd0b13c5db2b\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+50            android:value="@integer/google_play_services_version" />
+50-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\b9e0cbff83bdc327ba22bd0b13c5db2b\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+51
+52        <service
+52-->[androidx.room:room-runtime:2.5.0-alpha02] C:\Users\mohsin.a\.gradle\caches\transforms-3\65b623609eeefcef2ba2eac347b2c2b4\transformed\room-runtime-2.5.0-alpha02\AndroidManifest.xml:25:9-29:63
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.5.0-alpha02] C:\Users\mohsin.a\.gradle\caches\transforms-3\65b623609eeefcef2ba2eac347b2c2b4\transformed\room-runtime-2.5.0-alpha02\AndroidManifest.xml:26:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.5.0-alpha02] C:\Users\mohsin.a\.gradle\caches\transforms-3\65b623609eeefcef2ba2eac347b2c2b4\transformed\room-runtime-2.5.0-alpha02\AndroidManifest.xml:27:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.5.0-alpha02] C:\Users\mohsin.a\.gradle\caches\transforms-3\65b623609eeefcef2ba2eac347b2c2b4\transformed\room-runtime-2.5.0-alpha02\AndroidManifest.xml:28:13-37
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0-alpha04] C:\Users\mohsin.a\.gradle\caches\transforms-3\d669b1799c3a62fc965fe540edfde9ef\transformed\jetified-emoji2-1.2.0-alpha04\AndroidManifest.xml:26:9-34:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0-alpha04] C:\Users\mohsin.a\.gradle\caches\transforms-3\d669b1799c3a62fc965fe540edfde9ef\transformed\jetified-emoji2-1.2.0-alpha04\AndroidManifest.xml:27:13-67
+59            android:authorities="com.openweathermap.forecast.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0-alpha04] C:\Users\mohsin.a\.gradle\caches\transforms-3\d669b1799c3a62fc965fe540edfde9ef\transformed\jetified-emoji2-1.2.0-alpha04\AndroidManifest.xml:28:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0-alpha04] C:\Users\mohsin.a\.gradle\caches\transforms-3\d669b1799c3a62fc965fe540edfde9ef\transformed\jetified-emoji2-1.2.0-alpha04\AndroidManifest.xml:29:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0-alpha04] C:\Users\mohsin.a\.gradle\caches\transforms-3\d669b1799c3a62fc965fe540edfde9ef\transformed\jetified-emoji2-1.2.0-alpha04\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0-alpha04] C:\Users\mohsin.a\.gradle\caches\transforms-3\d669b1799c3a62fc965fe540edfde9ef\transformed\jetified-emoji2-1.2.0-alpha04\AndroidManifest.xml:32:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0-alpha04] C:\Users\mohsin.a\.gradle\caches\transforms-3\d669b1799c3a62fc965fe540edfde9ef\transformed\jetified-emoji2-1.2.0-alpha04\AndroidManifest.xml:33:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\38313b7165fcd409d5a0cfad0f213714\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\38313b7165fcd409d5a0cfad0f213714\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\38313b7165fcd409d5a0cfad0f213714\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:32:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:33:17-49
+70        </provider>
+71
+72        <activity
+72-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+73            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+73-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+74            android:exported="true"
+74-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+75            android:theme="@android:style/Theme" >
+75-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+76            <intent-filter>
+76-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:17-69
+77-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:25-66
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+81            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+81-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+82            android:exported="true"
+82-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+83            android:theme="@android:style/Theme" >
+83-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+84            <intent-filter>
+84-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:17-69
+85-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:25-66
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+89            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+89-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+90            android:exported="true"
+90-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+91            android:theme="@android:style/Theme.Dialog" >
+91-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+92            <intent-filter>
+92-->[androidx.test:core:1.4.0] C:\Users\mohsin.a\.gradle\caches\transforms-3\ea36f486aa3c1114578f00533673c919\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:17-69
+93-->C:\Android Base Project\app\src\main\AndroidManifest.xml:22:25-66
+94            </intent-filter>
+95        </activity>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:36:9-45:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:37:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:38:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:39:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:40:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:41:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:42:13-44:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:43:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\mohsin.a\.gradle\caches\transforms-3\f225070214539d8df6eef36913cac96f\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:43:25-88
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>
